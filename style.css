@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+  }
+
+.box {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(26, 26, 26, 0.215);
+
+
+    max-width: 100%;
+    min-width: 50px;
+}
+
+
+.logo {
+    background: rgb(194, 194, 194);
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    margin: 18px;
+
+
+}
+
+.canto {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 100%;
+    padding: 10px 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 2px;
+    padding-left: 0px;
+    
+}
+
+.casa {
+    background-color: rgb(194, 194, 194);
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 8px transparent #fff;
+    margin: 4px;
+}
+
+.casa:hover{
+    background-color: orangered;
+    transition: 0.5s;
+
+}
+
+
+.detail {
+    background-color: rgb(194, 194, 194);
+    border: 1px solid rgb(101, 101, 101);
+    border-radius: 8px; 
+    padding: 10px 20px;
+    border: 8px transparent #fff;
+    margin: 4px;
+}
+
+.detail:hover {
+    background-color: orangered;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+/* caixa imagem e texto */
+#Sobre {
+    color: rgb(97, 96, 96); 
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    margin: 18px;
+}
+
+p {
+
+    align-content: center;
+    background: rgba(255, 255, 255, 0.042);
+    border-radius: 20px;
+
+}
+/* borda texto */
+#Sobre p {
+    -webkit-text-stroke: 0.9px  rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 5% 5%;
+    min-height: 100%;
+    min-width: 50%;
+    text-align: center;
+}
+
+/* Imagem zumbis */
+.Zombies {
+
+    padding: 5% 5%;
+    max-width: 100%;
+    min-width: 20%;
+
+}
+
+
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -3;
+    display: flex;
+    opacity: 97%;
+    filter: grayscale(80%);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+/* video local state */
+
+
